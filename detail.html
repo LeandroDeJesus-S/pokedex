@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/pokemon-type-colors.css">
+    <link rel="stylesheet" href="./assets/css/detail.css">
+
+    <title>Pokedex | Detalhe</title>
+</head>
+<body>
+    
+    <section class="content">
+        <div id="pokemon-div" class="pokemon">
+        </div>
+
+        <div class="tab-container">
+            <ul class="tab-list">
+                <li class="tab-option tab-active" id="aboutOption" for="about">About</li>
+                <li class="tab-option" id="baseStatsOption" for="base-stats">Base stats</li>
+                <li style="opacity: .5;" id="evolutionOption" for="evolution">Evolution</li>
+                <li style="opacity: .5;" id="moviesOption" for="movies">Movies</li>
+            </ul>
+            <div class="tab-content">
+                <article id="about"></article>
+                <article id="base-stats"></article>
+                <article id="evolution"></article>
+                <article id="movies"></article>
+            </div>
+        </div>
+
+    </section>
+
+ 
+    <script src="./assets/js/components.js"></script>
+    <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/detail.js"></script>
+
+    <div style="background-color: darkgrey;">
+        <div></div>
+    </div>
+</body>
+</html>

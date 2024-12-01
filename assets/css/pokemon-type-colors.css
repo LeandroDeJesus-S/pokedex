@@ -1,0 +1,73 @@
+/* color types */
+/* Tipos de Pokémon e suas cores */
+.normal {
+    background-color: #A8A77A; /* Bege claro */
+}
+
+.fire {
+    background-color: #EE8130; /* Laranja queimado */
+}
+
+.water {
+    background-color: #6390F0; /* Azul claro */
+}
+
+.electric {
+    background-color: #F7D02C; /* Amarelo vibrante */
+}
+
+.grass {
+    background-color: #7AC74C; /* Verde médio */
+}
+
+.ice {
+    background-color: #96D9D6; /* Azul gelo */
+}
+
+.fighting {
+    background-color: #C22E28; /* Vermelho escuro */
+}
+
+.poison {
+    background-color: #A33EA1; /* Roxo intenso */
+}
+
+.ground {
+    background-color: #E2BF65; /* Amarelo areia */
+}
+
+.flying {
+    background-color: #A98FF3; /* Roxo claro */
+}
+
+.psychic {
+    background-color: #F95587; /* Rosa escuro */
+}
+
+.bug {
+    background-color: #A6B91A; /* Verde musgo */
+}
+
+.rock {
+    background-color: #B6A136; /* Bege amarelado */
+}
+
+.ghost {
+    background-color: #735797; /* Roxo profundo */
+}
+
+.dragon {
+    background-color: #6F35FC; /* Roxo vibrante */
+}
+
+.dark {
+    background-color: #705746; /* Marrom escuro */
+}
+
+.steel {
+    background-color: #B7B7CE; /* Cinza azulado */
+}
+
+.fairy {
+    background-color: #D685AD; /* Rosa suave */
+}
